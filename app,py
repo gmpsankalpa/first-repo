@@ -1,0 +1,11 @@
+import time
+
+def print_star_loop():
+    count = 1
+    while True:
+        print('*' * count)
+        count += 1
+        time.sleep(1)  # Wait for 1 second before printing the next line
+
+if __name__ == "__main__":
+    print_star_loop()
